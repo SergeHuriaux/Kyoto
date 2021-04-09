@@ -153,3 +153,53 @@ nav {
   background: rgb(177,0,36);
   color: #fff;
 }
+
+/*@@@@@@@@@@@@@@@ ACCUEIL RESPONSIVE @@@@@@@@@@@@@@@*/
+
+  @media screen and (max-width: 850px) {
+  .accueil {
+    height: 650px;
+  }
+  .logo-kyoto {
+    margin: 120px auto 0;
+  }
+  .accueil h1 {
+    font-size: 60px;
+  }
+  .sous-titre {
+    font-size: 23px;
+  }
+  .btn-accueil {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    font-size:18px;
+    margin: 15px auto 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .accueil {
+    height: 550px;
+  }
+  .logo-kyoto {
+    width: 150px;
+    margin: 110px auto 0;
+  }
+  .accueil h1 {
+    font-size: 35px;
+  }
+  .sous-titre {
+    font-size: 20px;
+  }
+  .btn-accueil {
+    width: 130px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+  }
+  .logo-menu {
+    top: 15px;
+    width: 40px;
+  }
+}
